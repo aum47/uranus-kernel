@@ -24,6 +24,8 @@
 #include "fimc-is-dt.h"
 #include "fimc-is-core.h"
 #include "fimc-is-dvfs.h"
+#include <linux/device.h>
+#include <linux/spi/spi.h>
 
 #ifdef CONFIG_CAMERA_USE_SOC_SENSOR
 #include <linux/kernel.h>
