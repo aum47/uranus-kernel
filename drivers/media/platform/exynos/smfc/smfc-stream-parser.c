@@ -12,6 +12,7 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 #include <linux/dma-buf.h>
+#include <linux/slab.h>
 
 #include <media/videobuf2-core.h>
 
